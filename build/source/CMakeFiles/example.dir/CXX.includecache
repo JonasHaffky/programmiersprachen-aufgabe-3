@@ -92,6 +92,20 @@ math.h
 nanovg.h
 ../external/nanovg/src/nanovg.h
 
+/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/Aufgabe3-1.cpp
+cstdlib
+-
+vector
+-
+list
+-
+iostream
+-
+iterator
+-
+algorithm
+-
+
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/circle.cpp
 iostream
 -
@@ -117,22 +131,6 @@ color.hpp
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/color.hpp
 iostream
 -
-
-/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/example.cpp
-window.hpp
-/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/window.hpp
-GLFW/glfw3.h
--
-utility
--
-cmath
--
-circle.hpp
-/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/circle.hpp
-rectangle.hpp
-/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/rectangle.hpp
-vec2.hpp
-/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/vec2.hpp
 
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/mat2.cpp
 iostream

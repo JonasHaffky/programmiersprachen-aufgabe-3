@@ -137,30 +137,17 @@ glfw/fast:
 .PHONY : glfw/fast
 
 #=============================================================================
-# Target rules for targets named tests
+# Target rules for targets named Aufgabe3-1
 
 # Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
+Aufgabe3-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Aufgabe3-1
+.PHONY : Aufgabe3-1
 
 # fast build rule for target.
-tests/fast:
-	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
-# Target rules for targets named example
-
-# Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example
-.PHONY : example
-
-# fast build rule for target.
-example/fast:
-	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
-.PHONY : example/fast
+Aufgabe3-1/fast:
+	$(MAKE) -f source/CMakeFiles/Aufgabe3-1.dir/build.make source/CMakeFiles/Aufgabe3-1.dir/build
+.PHONY : Aufgabe3-1/fast
 
 external/nanovg/src/nanovg.o: external/nanovg/src/nanovg.c.o
 
@@ -199,8 +186,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... nanovg"
 	@echo "... glfw"
-	@echo "... tests"
-	@echo "... example"
+	@echo "... Aufgabe3-1"
 	@echo "... external/nanovg/src/nanovg.o"
 	@echo "... external/nanovg/src/nanovg.i"
 	@echo "... external/nanovg/src/nanovg.s"

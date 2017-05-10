@@ -105,33 +105,9 @@ source/CMakeFiles/example.dir/glew.c.o.provides: source/CMakeFiles/example.dir/g
 source/CMakeFiles/example.dir/glew.c.o.provides.build: source/CMakeFiles/example.dir/glew.c.o
 
 
-source/CMakeFiles/example.dir/example.cpp.o: source/CMakeFiles/example.dir/flags.make
-source/CMakeFiles/example.dir/example.cpp.o: ../source/example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/example.dir/example.cpp.o"
-	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/example.cpp
-
-source/CMakeFiles/example.dir/example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/example.cpp.i"
-	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/example.cpp > CMakeFiles/example.dir/example.cpp.i
-
-source/CMakeFiles/example.dir/example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/example.cpp.s"
-	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/example.cpp -o CMakeFiles/example.dir/example.cpp.s
-
-source/CMakeFiles/example.dir/example.cpp.o.requires:
-
-.PHONY : source/CMakeFiles/example.dir/example.cpp.o.requires
-
-source/CMakeFiles/example.dir/example.cpp.o.provides: source/CMakeFiles/example.dir/example.cpp.o.requires
-	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.o.provides.build
-.PHONY : source/CMakeFiles/example.dir/example.cpp.o.provides
-
-source/CMakeFiles/example.dir/example.cpp.o.provides.build: source/CMakeFiles/example.dir/example.cpp.o
-
-
 source/CMakeFiles/example.dir/vec2.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/vec2.cpp.o: ../source/vec2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/example.dir/vec2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/example.dir/vec2.cpp.o"
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/vec2.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/vec2.cpp
 
 source/CMakeFiles/example.dir/vec2.cpp.i: cmake_force
@@ -155,7 +131,7 @@ source/CMakeFiles/example.dir/vec2.cpp.o.provides.build: source/CMakeFiles/examp
 
 source/CMakeFiles/example.dir/mat2.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/mat2.cpp.o: ../source/mat2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/mat2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/example.dir/mat2.cpp.o"
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/mat2.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/mat2.cpp
 
 source/CMakeFiles/example.dir/mat2.cpp.i: cmake_force
@@ -179,7 +155,7 @@ source/CMakeFiles/example.dir/mat2.cpp.o.provides.build: source/CMakeFiles/examp
 
 source/CMakeFiles/example.dir/color.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/color.cpp.o: ../source/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/color.cpp.o"
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/color.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/color.cpp
 
 source/CMakeFiles/example.dir/color.cpp.i: cmake_force
@@ -203,7 +179,7 @@ source/CMakeFiles/example.dir/color.cpp.o.provides.build: source/CMakeFiles/exam
 
 source/CMakeFiles/example.dir/circle.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/circle.cpp.o: ../source/circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/circle.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/circle.cpp
 
 source/CMakeFiles/example.dir/circle.cpp.i: cmake_force
@@ -227,7 +203,7 @@ source/CMakeFiles/example.dir/circle.cpp.o.provides.build: source/CMakeFiles/exa
 
 source/CMakeFiles/example.dir/rectangle.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/rectangle.cpp.o: ../source/rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/rectangle.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/rectangle.cpp
 
 source/CMakeFiles/example.dir/rectangle.cpp.i: cmake_force
@@ -249,28 +225,52 @@ source/CMakeFiles/example.dir/rectangle.cpp.o.provides: source/CMakeFiles/exampl
 source/CMakeFiles/example.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/example.dir/rectangle.cpp.o
 
 
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o: ../source/Aufgabe3-1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o"
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/Aufgabe3-1.cpp.o -c /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/Aufgabe3-1.cpp
+
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/Aufgabe3-1.cpp.i"
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/Aufgabe3-1.cpp > CMakeFiles/example.dir/Aufgabe3-1.cpp.i
+
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/Aufgabe3-1.cpp.s"
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/Aufgabe3-1.cpp -o CMakeFiles/example.dir/Aufgabe3-1.cpp.s
+
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.requires
+
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.provides: source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.provides
+
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.provides.build: source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o
+
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/window.cpp.o" \
 "CMakeFiles/example.dir/glew.c.o" \
-"CMakeFiles/example.dir/example.cpp.o" \
 "CMakeFiles/example.dir/vec2.cpp.o" \
 "CMakeFiles/example.dir/mat2.cpp.o" \
 "CMakeFiles/example.dir/color.cpp.o" \
 "CMakeFiles/example.dir/circle.cpp.o" \
-"CMakeFiles/example.dir/rectangle.cpp.o"
+"CMakeFiles/example.dir/rectangle.cpp.o" \
+"CMakeFiles/example.dir/Aufgabe3-1.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
 
 source/example: source/CMakeFiles/example.dir/window.cpp.o
 source/example: source/CMakeFiles/example.dir/glew.c.o
-source/example: source/CMakeFiles/example.dir/example.cpp.o
 source/example: source/CMakeFiles/example.dir/vec2.cpp.o
 source/example: source/CMakeFiles/example.dir/mat2.cpp.o
 source/example: source/CMakeFiles/example.dir/color.cpp.o
 source/example: source/CMakeFiles/example.dir/circle.cpp.o
 source/example: source/CMakeFiles/example.dir/rectangle.cpp.o
+source/example: source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o
 source/example: source/CMakeFiles/example.dir/build.make
 source/example: external/glfw-3.2.1/src/libglfw3.a
 source/example: libnanovg.a
@@ -294,12 +294,12 @@ source/CMakeFiles/example.dir/build: source/example
 
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/window.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/glew.c.o.requires
-source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/example.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/vec2.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/mat2.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/color.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/circle.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o.requires
 
 .PHONY : source/CMakeFiles/example.dir/requires
 

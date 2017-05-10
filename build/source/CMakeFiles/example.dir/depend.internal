@@ -6,6 +6,8 @@ source/CMakeFiles/example.dir/glew.c.o
  ../external/GL/glxew.h
  ../external/GL/wglew.h
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/glew.c
+source/CMakeFiles/example.dir/Aufgabe3-1.cpp.o
+ /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/Aufgabe3-1.cpp
 source/CMakeFiles/example.dir/circle.cpp.o
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/circle.cpp
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/circle.hpp
@@ -15,15 +17,6 @@ source/CMakeFiles/example.dir/circle.cpp.o
 source/CMakeFiles/example.dir/color.cpp.o
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/color.cpp
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/color.hpp
-source/CMakeFiles/example.dir/example.cpp.o
- ../external/GL/glext.h
- ../external/glfw-3.2.1/include/GLFW/glfw3.h
- /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/circle.hpp
- /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/color.hpp
- /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/example.cpp
- /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/rectangle.hpp
- /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/vec2.hpp
- /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/window.hpp
 source/CMakeFiles/example.dir/mat2.cpp.o
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/mat2.cpp
  /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/mat2.hpp
