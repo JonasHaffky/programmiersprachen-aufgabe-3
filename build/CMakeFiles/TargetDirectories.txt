@@ -8,4 +8,5 @@
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source/CMakeFiles/edit_cache.dir
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source/CMakeFiles/rebuild_cache.dir
+/home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source/CMakeFiles/aufgabe2bis4.dir
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build/source/CMakeFiles/Aufgabe3-1.dir
