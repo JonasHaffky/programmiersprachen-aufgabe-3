@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall   CMakeFiles/aufgabe8.dir/aufgabe8.cpp.o CMakeFiles/aufgabe8.dir/circle.cpp.o CMakeFiles/aufgabe8.dir/color.cpp.o CMakeFiles/aufgabe8.dir/vec2.cpp.o  -o aufgabe8 -rdynamic 

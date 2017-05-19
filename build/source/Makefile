@@ -126,6 +126,21 @@ Aufgabe3-1/fast:
 .PHONY : Aufgabe3-1/fast
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe7.dir/rule:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe7.dir/rule
+.PHONY : source/CMakeFiles/aufgabe7.dir/rule
+
+# Convenience name for target.
+aufgabe7: source/CMakeFiles/aufgabe7.dir/rule
+
+.PHONY : aufgabe7
+
+# fast build rule for target.
+aufgabe7/fast:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
+.PHONY : aufgabe7/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe2bis4.dir/rule:
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe2bis4.dir/rule
 .PHONY : source/CMakeFiles/aufgabe2bis4.dir/rule
@@ -139,6 +154,21 @@ aufgabe2bis4: source/CMakeFiles/aufgabe2bis4.dir/rule
 aufgabe2bis4/fast:
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
 .PHONY : aufgabe2bis4/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe8.dir/rule:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe8.dir/rule
+.PHONY : source/CMakeFiles/aufgabe8.dir/rule
+
+# Convenience name for target.
+aufgabe8: source/CMakeFiles/aufgabe8.dir/rule
+
+.PHONY : aufgabe8
+
+# fast build rule for target.
+aufgabe8/fast:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/build
+.PHONY : aufgabe8/fast
 
 # Convenience name for target.
 source/CMakeFiles/aufgabe5.dir/rule:
@@ -236,6 +266,150 @@ aufgabe5.cpp.s:
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/aufgabe5.cpp.s
 .PHONY : aufgabe5.cpp.s
 
+aufgabe7.o: aufgabe7.cpp.o
+
+.PHONY : aufgabe7.o
+
+# target to build an object file
+aufgabe7.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.o
+.PHONY : aufgabe7.cpp.o
+
+aufgabe7.i: aufgabe7.cpp.i
+
+.PHONY : aufgabe7.i
+
+# target to preprocess a source file
+aufgabe7.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.i
+.PHONY : aufgabe7.cpp.i
+
+aufgabe7.s: aufgabe7.cpp.s
+
+.PHONY : aufgabe7.s
+
+# target to generate assembly for a file
+aufgabe7.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/aufgabe7.cpp.s
+.PHONY : aufgabe7.cpp.s
+
+aufgabe8.o: aufgabe8.cpp.o
+
+.PHONY : aufgabe8.o
+
+# target to build an object file
+aufgabe8.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.o
+.PHONY : aufgabe8.cpp.o
+
+aufgabe8.i: aufgabe8.cpp.i
+
+.PHONY : aufgabe8.i
+
+# target to preprocess a source file
+aufgabe8.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.i
+.PHONY : aufgabe8.cpp.i
+
+aufgabe8.s: aufgabe8.cpp.s
+
+.PHONY : aufgabe8.s
+
+# target to generate assembly for a file
+aufgabe8.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.s
+.PHONY : aufgabe8.cpp.s
+
+circle.o: circle.cpp.o
+
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.o
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.i
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.s
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
+color.o: color.cpp.o
+
+.PHONY : color.o
+
+# target to build an object file
+color.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/color.cpp.o
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/color.cpp.o
+.PHONY : color.cpp.o
+
+color.i: color.cpp.i
+
+.PHONY : color.i
+
+# target to preprocess a source file
+color.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/color.cpp.i
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/color.cpp.i
+.PHONY : color.cpp.i
+
+color.s: color.cpp.s
+
+.PHONY : color.s
+
+# target to generate assembly for a file
+color.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/color.cpp.s
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/color.cpp.s
+.PHONY : color.cpp.s
+
+vec2.o: vec2.cpp.o
+
+.PHONY : vec2.o
+
+# target to build an object file
+vec2.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/vec2.cpp.o
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/vec2.cpp.o
+.PHONY : vec2.cpp.o
+
+vec2.i: vec2.cpp.i
+
+.PHONY : vec2.i
+
+# target to preprocess a source file
+vec2.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/vec2.cpp.i
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/vec2.cpp.i
+.PHONY : vec2.cpp.i
+
+vec2.s: vec2.cpp.s
+
+.PHONY : vec2.s
+
+# target to generate assembly for a file
+vec2.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/vec2.cpp.s
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/vec2.cpp.s
+.PHONY : vec2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,10 +417,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... Aufgabe3-1"
-	@echo "... aufgabe2bis4"
-	@echo "... aufgabe5"
 	@echo "... rebuild_cache"
+	@echo "... Aufgabe3-1"
+	@echo "... aufgabe7"
+	@echo "... aufgabe2bis4"
+	@echo "... aufgabe8"
+	@echo "... aufgabe5"
 	@echo "... Aufgabe3-1.o"
 	@echo "... Aufgabe3-1.i"
 	@echo "... Aufgabe3-1.s"
@@ -256,6 +432,21 @@ help:
 	@echo "... aufgabe5.o"
 	@echo "... aufgabe5.i"
 	@echo "... aufgabe5.s"
+	@echo "... aufgabe7.o"
+	@echo "... aufgabe7.i"
+	@echo "... aufgabe7.s"
+	@echo "... aufgabe8.o"
+	@echo "... aufgabe8.i"
+	@echo "... aufgabe8.s"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
+	@echo "... color.o"
+	@echo "... color.i"
+	@echo "... color.s"
+	@echo "... vec2.o"
+	@echo "... vec2.i"
+	@echo "... vec2.s"
 .PHONY : help
 
 

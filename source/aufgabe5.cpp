@@ -8,6 +8,10 @@ bool isnt_multiple_of_3(int i){
     return ((i%3)!=0);
 }
 
+bool is_multiple_of_3(int i){
+    return ((i%3)==0);
+}
+
 TEST_CASE ("filter alle vielfache von drei", "[ erase ]")
 {
 std::cout <<"\nDas ist der Vektor mit 100 Zufallszahlen:"<<std::endl;
@@ -22,7 +26,7 @@ for (auto& v : v0){
 std :: cout <<v<<" ";
 }
 
-REQUIRE(std::all_of(v0.begin(), v0.end(), isnt_multiple_of_3));
+REQUIRE(std::all_of(v0.begin(), v0.end(), is_multiple_of_3));
 }
 int main(int argc, char* argv[])
 {

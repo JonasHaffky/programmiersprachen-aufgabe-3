@@ -150,6 +150,19 @@ Aufgabe3-1/fast:
 .PHONY : Aufgabe3-1/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe7
+
+# Build rule for target.
+aufgabe7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe7
+.PHONY : aufgabe7
+
+# fast build rule for target.
+aufgabe7/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
+.PHONY : aufgabe7/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe2bis4
 
 # Build rule for target.
@@ -161,6 +174,19 @@ aufgabe2bis4: cmake_check_build_system
 aufgabe2bis4/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
 .PHONY : aufgabe2bis4/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe8
+
+# Build rule for target.
+aufgabe8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe8
+.PHONY : aufgabe8
+
+# fast build rule for target.
+aufgabe8/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/build
+.PHONY : aufgabe8/fast
 
 #=============================================================================
 # Target rules for targets named aufgabe5
@@ -213,7 +239,9 @@ help:
 	@echo "... nanovg"
 	@echo "... glfw"
 	@echo "... Aufgabe3-1"
+	@echo "... aufgabe7"
 	@echo "... aufgabe2bis4"
+	@echo "... aufgabe8"
 	@echo "... aufgabe5"
 	@echo "... external/nanovg/src/nanovg.o"
 	@echo "... external/nanovg/src/nanovg.i"

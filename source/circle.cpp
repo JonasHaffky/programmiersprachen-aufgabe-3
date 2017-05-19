@@ -6,6 +6,10 @@
         center_{{0.0f},{0.0f}},
         kreisfarbe_{{0.0f},{0.0f},{0.0f}}
     {}
+     Circle::Circle(float rad):
+        radius_=rad,
+        center_{{1.0f},{1.0f}}
+    {}
     Circle::Circle(Vec2 const& ctr, float r, Color const& clr){
         if(r<0.0f){
         std::cerr<<"Der Kreis muss einen Radius über 0 haben!"<<std::endl;
@@ -26,25 +30,15 @@
         return result;
     }
     Color Circle:: getColorC() const{return kreisfarbe_;}
-    void Circle:: draw(Window const& canvas) const{
-        canvas.draw_point(getCenter().x_,getCenter().y_,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_-radius_ /2,center_.y_-radius_,center_.x_+radius_ /2,center_.y_-radius_,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_+radius_ /2,center_.y_-radius_,center_.x_+radius_,center_.y_-radius_ /2,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_+radius_,center_.y_-radius_ /2,center_.x_+radius_,center_.y_+radius_ /2,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_+radius_,center_.y_+radius_ /2,center_.x_+radius_ /2,center_.y_+radius_,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_+radius_ /2,center_.y_+radius_,center_.x_-radius_ /2,center_.y_+radius_,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_-radius_ /2,center_.y_+radius_,center_.x_-radius_,center_.y_+radius_ /2,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_-radius_,center_.y_+radius_ /2,center_.x_-radius_,center_.y_-radius_ /2,0.0f,0.0f,0.0f);
-        canvas.draw_line(center_.x_-radius_,center_.y_-radius_ /2,center_.x_-radius_ /2,center_.y_-radius_,0.0f,0.0f,0.0f);
+  
+    bool Circle::operator < (Circle const& c1) const {
+	return (radius_ < c1.getRadius());
     }
-    void Circle:: draw(Window const& canvas, Color const& clr) const{
-        canvas.draw_point(getCenter().x_,getCenter().y_,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_-radius_ /2,center_.y_-radius_,center_.x_+radius_ /2,center_.y_-radius_,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_+radius_ /2,center_.y_-radius_,center_.x_+radius_,center_.y_-radius_ /2,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_+radius_,center_.y_-radius_ /2,center_.x_+radius_,center_.y_+radius_ /2,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_+radius_,center_.y_+radius_ /2,center_.x_+radius_ /2,center_.y_+radius_,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_+radius_ /2,center_.y_+radius_,center_.x_-radius_ /2,center_.y_+radius_,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_-radius_ /2,center_.y_+radius_,center_.x_-radius_,center_.y_+radius_ /2,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_-radius_,center_.y_+radius_ /2,center_.x_-radius_,center_.y_-radius_ /2,clr.r,clr.g,clr.b);
-        canvas.draw_line(center_.x_-radius_,center_.y_-radius_ /2,center_.x_-radius_ /2,center_.y_-radius_,clr.r,clr.g,clr.b);
+
+    bool Circle::operator>(Circle const& c1) const {
+	return (radius_ > c1.getRadius());
+    }
+
+    bool Circle::operator==(Circle const& c1) const{
+	return (radius_ == c1.getRadius());
     }
