@@ -7,7 +7,7 @@
         kreisfarbe_{{0.0f},{0.0f},{0.0f}}
     {}
      Circle::Circle(float rad):
-        radius_=rad,
+        radius_{rad},
         center_{{1.0f},{1.0f}}
     {}
     Circle::Circle(Vec2 const& ctr, float r, Color const& clr){

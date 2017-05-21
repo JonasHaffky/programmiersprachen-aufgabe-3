@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übun
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,36 @@ preinstall/fast:
 depend:
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe10.dir/rule:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe10.dir/rule
+.PHONY : source/CMakeFiles/aufgabe10.dir/rule
+
+# Convenience name for target.
+aufgabe10: source/CMakeFiles/aufgabe10.dir/rule
+
+.PHONY : aufgabe10
+
+# fast build rule for target.
+aufgabe10/fast:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/build
+.PHONY : aufgabe10/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe9.dir/rule:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe9.dir/rule
+
+# Convenience name for target.
+aufgabe9: source/CMakeFiles/aufgabe9.dir/rule
+
+.PHONY : aufgabe9
+
+# fast build rule for target.
+aufgabe9/fast:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/build
+.PHONY : aufgabe9/fast
 
 # Convenience name for target.
 source/CMakeFiles/Aufgabe3-1.dir/rule:
@@ -211,6 +241,33 @@ Aufgabe3-1.s: Aufgabe3-1.cpp.s
 Aufgabe3-1.cpp.s:
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/Aufgabe3-1.dir/build.make source/CMakeFiles/Aufgabe3-1.dir/Aufgabe3-1.cpp.s
 .PHONY : Aufgabe3-1.cpp.s
+
+aufgabe10.o: aufgabe10.cpp.o
+
+.PHONY : aufgabe10.o
+
+# target to build an object file
+aufgabe10.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.o
+.PHONY : aufgabe10.cpp.o
+
+aufgabe10.i: aufgabe10.cpp.i
+
+.PHONY : aufgabe10.i
+
+# target to preprocess a source file
+aufgabe10.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.i
+.PHONY : aufgabe10.cpp.i
+
+aufgabe10.s: aufgabe10.cpp.s
+
+.PHONY : aufgabe10.s
+
+# target to generate assembly for a file
+aufgabe10.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.s
+.PHONY : aufgabe10.cpp.s
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 
@@ -320,6 +377,33 @@ aufgabe8.cpp.s:
 	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/aufgabe8.cpp.s
 .PHONY : aufgabe8.cpp.s
 
+aufgabe9.o: aufgabe9.cpp.o
+
+.PHONY : aufgabe9.o
+
+# target to build an object file
+aufgabe9.cpp.o:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.o
+.PHONY : aufgabe9.cpp.o
+
+aufgabe9.i: aufgabe9.cpp.i
+
+.PHONY : aufgabe9.i
+
+# target to preprocess a source file
+aufgabe9.cpp.i:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.i
+.PHONY : aufgabe9.cpp.i
+
+aufgabe9.s: aufgabe9.cpp.s
+
+.PHONY : aufgabe9.s
+
+# target to generate assembly for a file
+aufgabe9.cpp.s:
+	cd /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.s
+.PHONY : aufgabe9.cpp.s
+
 circle.o: circle.cpp.o
 
 .PHONY : circle.o
@@ -416,8 +500,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... aufgabe10"
+	@echo "... edit_cache"
+	@echo "... aufgabe9"
 	@echo "... Aufgabe3-1"
 	@echo "... aufgabe7"
 	@echo "... aufgabe2bis4"
@@ -426,6 +512,9 @@ help:
 	@echo "... Aufgabe3-1.o"
 	@echo "... Aufgabe3-1.i"
 	@echo "... Aufgabe3-1.s"
+	@echo "... aufgabe10.o"
+	@echo "... aufgabe10.i"
+	@echo "... aufgabe10.s"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
@@ -438,6 +527,9 @@ help:
 	@echo "... aufgabe8.o"
 	@echo "... aufgabe8.i"
 	@echo "... aufgabe8.s"
+	@echo "... aufgabe9.o"
+	@echo "... aufgabe9.i"
+	@echo "... aufgabe9.s"
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"

@@ -137,6 +137,32 @@ glfw/fast:
 .PHONY : glfw/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe10
+
+# Build rule for target.
+aufgabe10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe10
+.PHONY : aufgabe10
+
+# fast build rule for target.
+aufgabe10/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/build
+.PHONY : aufgabe10/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe9
+
+# Build rule for target.
+aufgabe9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe9
+.PHONY : aufgabe9
+
+# fast build rule for target.
+aufgabe9/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/build
+.PHONY : aufgabe9/fast
+
+#=============================================================================
 # Target rules for targets named Aufgabe3-1
 
 # Build rule for target.
@@ -238,6 +264,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... nanovg"
 	@echo "... glfw"
+	@echo "... aufgabe10"
+	@echo "... aufgabe9"
 	@echo "... Aufgabe3-1"
 	@echo "... aufgabe7"
 	@echo "... aufgabe2bis4"

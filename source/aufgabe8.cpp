@@ -3,13 +3,13 @@
 # include <cmath>
 # include <algorithm>
 # include <vector>
-# include <circle.cpp>
+# include "circle.hpp"
 
-void insertCircle(vector<Circle> vec, Circle const& circle){
-    vec.insert(vec.begin(), circ);
+void insertCircle(std::vector<Circle> vec, Circle const& circle){
+    vec.insert(vec.begin(), circle);
 }
 // lambda
-auto compareCircles = [](Circle const& ca, Circle const& cb) -> bool {
+auto compareRadius = [](Circle const& ca, Circle const& cb) -> bool {
 	return (ca.getRadius() < cb.getRadius());
 };
 
@@ -21,7 +21,7 @@ TEST_CASE ("sortiert die Kreise der Größe nach", "[ is_sorted ]")
     Circle circle4(0.9f);
     Circle circle5(22.4f);
 
-    vector <Circle> circleVec
+    std::vector <Circle> circleVec;
 
     insertCircle(circleVec, circle1);
     insertCircle(circleVec, circle2);
@@ -29,7 +29,7 @@ TEST_CASE ("sortiert die Kreise der Größe nach", "[ is_sorted ]")
     insertCircle(circleVec, circle4);
     insertCircle(circleVec, circle5);
 
-    sort(circleVec.begin(), circleVec.end(), compareCircles);
+    sort(circleVec.begin(), circleVec.end(), compareRadius);
 
     REQUIRE(is_sorted(circleVec.begin(), circleVec.end()));
 }

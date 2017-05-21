@@ -3,10 +3,10 @@
 # include <cmath>
 # include <algorithm>
 # include <vector>
-# include <circle.cpp>
+# include "circle.hpp"
 
-void insertCircle(vector<Circle> vec, Circle const& circle){
-    vec.insert(vec.begin(), circ);
+void insertCircle(std::vector<Circle> vec, Circle const& circle){
+    vec.insert(vec.begin(), circle);
 }
 
 TEST_CASE ("sortiert die Kreise der Größe nach", "[ sort ]")
@@ -17,7 +17,7 @@ TEST_CASE ("sortiert die Kreise der Größe nach", "[ sort ]")
     Circle circle4(0.9f);
     Circle circle5(22.4f);
 
-    vector <Circle> circleVec
+    std::vector <Circle> circleVec;
 
     insertCircle(circleVec, circle1);
     insertCircle(circleVec, circle2);
