@@ -229,10 +229,16 @@ assert.h
 /home/jonashaffky/Dokumente/Studium/Programmiersprachen/Übung/Übung3/programmiersprachen-aufgabe-3/source/aufgabe10.cpp
 catch.hpp
 -
-cmath
--
 algorithm
 -
 iostream
+-
+functional
+-
+vector
+-
+list
+-
+iterator
 -
 
